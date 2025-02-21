@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Heart Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Heart Disease Prediction</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index">Predict</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="container mt-5">
+        <h2 class="text-center">About Our Heart Disease Prediction App</h2>
+        <p class="text-center text-muted">Understanding your heart health through AI-powered predictions.</p>
+
+        <div class="card p-4 shadow-lg">
+            <h4>📌 What is this App?</h4>
+            <p>
+                Our Heart Disease Prediction App helps users assess their heart health by analyzing key medical indicators. 
+                By providing simple health data inputs, the system predicts whether you are at risk of heart disease using 
+                a machine learning model.
+            </p>
+
+            <h4>🛠 How Does It Work?</h4>
+            <p>
+                - Enter your health parameters such as **Age, Cholesterol Level, Blood Pressure, Heart Rate, and Glucose Level**.<br>
+                - Our trained machine learning model processes this data.<br>
+                - The system predicts whether you are at risk of heart disease.<br>
+                - If at risk, we recommend consulting a medical professional for further analysis.
+            </p>
+
+            <h4>💡 Why Use This App?</h4>
+            <p>
+                - **Early Detection**: Helps identify potential heart disease risk before serious symptoms appear.<br>
+                - **AI-Powered**: Uses a trained ML model for quick and accurate predictions.<br>
+                - **User-Friendly**: Simple input system with instant results.<br>
+                - **Free & Accessible**: Available for everyone to use for health awareness.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-3 bg-light">
+        <p>&copy; 2025 Heart Prediction App | Built with ❤️ for Health Awareness</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
