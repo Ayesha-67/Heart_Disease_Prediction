@@ -1,4 +1,4 @@
-# Heart_Disease_Prediction Live [link](https://heart-disease-prediction-zkyl.onrender.com/)
+# Heart_Disease_Prediction [Live](https://heart-disease-prediction-zkyl.onrender.com/)
 
 
 ### The dataset is publicly available on the Kaggle website ("https://www.kaggle.com/datasets/dileep070/heart-disease-prediction-using-logistic-regression").
